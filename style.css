@@ -55,8 +55,16 @@ header .navpr li a {
     align-items: center;
 }
 
+.section-div div {
+    margin-top: 120px;
+    align-self: start;
+    display: grid;
+    padding: 60px;
+}
+
 /*  IMG   */
 
 img {
     width: 600px;
 }
+
