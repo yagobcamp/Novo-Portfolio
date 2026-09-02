@@ -7,6 +7,7 @@
    box-sizing: border-box;
    list-style: none;
    text-decoration: none;
+   text-align: justify;
 }
 
 body {
@@ -33,8 +34,29 @@ header span {
     color: #ffffff;
 }
 
+header .navpr {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 header .navpr li a {
     padding: 10px;
     color: #ffffff;
     font-size: 1.3rem;
+    }
+
+/*  DOWNLOAD CV   */
+
+.section-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*  IMG   */
+
+img {
+    width: 600px;
 }
