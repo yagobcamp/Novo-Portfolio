@@ -7,7 +7,6 @@
    box-sizing: border-box;
    list-style: none;
    text-decoration: none;
-   text-align: justify;
 }
 
 body {
@@ -53,13 +52,18 @@ header .navpr li a {
     grid-template-columns: 1fr 1fr;
     justify-content: space-around;
     align-items: center;
+    text-align: justify;
+    gap: 40px;
+    padding: 50px;
+
 }
 
 .section-div div {
     margin-top: 120px;
     align-self: start;
     display: grid;
-    padding: 60px;
+    gap: 18px;
+    
 }
 
 /*  IMG   */
