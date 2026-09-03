@@ -10,14 +10,15 @@
 }
 
 body {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
+    
 }
 
 /*  HEADER  */
 
 header {
-    background-color: rgb(10, 1, 1);
+    background-color: rgb(47, 23, 23);
     padding: 10px;
     display: flex;
     align-items: center;
@@ -25,7 +26,7 @@ header {
 }
 
 header h1 {
-    color: #cf2828;
+    color: #ca0d0a;
     font-size: 2.5rem;
 }
 
@@ -48,6 +49,7 @@ header .navpr li a {
 /*  DOWNLOAD CV   */
 
 .section-div {
+    background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-around;
@@ -63,12 +65,35 @@ header .navpr li a {
     align-self: start;
     display: grid;
     gap: 18px;
-    
+}
+
+.section-div div h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #f7f7f7;
+}
+
+.section-div div p {
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: larger;
+    font-weight: 400;
+    color: #f7f7f7;
+}
+
+.section-div div a {
+    justify-self: ;
+    color: white;
+    width: 180px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 2px solid white;
 }
 
 /*  IMG   */
 
 img {
     width: 600px;
+    border-radius: 5px;
 }
 
