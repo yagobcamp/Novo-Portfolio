@@ -93,7 +93,6 @@ header .navpr li a {
 /*  IMG   */
 
 img {
-    width: 600px;
-    border-radius: 5px;
+    max-width: 100%;
 }
 
