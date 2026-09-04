@@ -82,7 +82,7 @@ header .navpr li a {
 }
 
 .section-div div a {
-    justify-self: ;
+    justify-self: start;
     color: white;
     width: 180px;
     padding: 15px 40px;
